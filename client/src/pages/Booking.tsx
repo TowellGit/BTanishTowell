@@ -67,9 +67,9 @@ export default function Booking() {
                 <p className="text-warm-gray mb-3 text-sm">
                   Speak directly with our booking team for personalized assistance
                 </p>
-                <a href="tel:+919876543210">
+                <a href="tel:+917796947777">
                   <Button className="luxury-gradient text-white hover:opacity-90 w-full">
-                    +91 98765 43210
+                    +91 77969 47777
                   </Button>
                 </a>
               </Card>
@@ -91,7 +91,7 @@ export default function Booking() {
                 <p className="text-warm-gray mb-3 text-sm">
                   Quick booking assistance and instant responses via WhatsApp
                 </p>
-                <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/917796947777" target="_blank" rel="noopener noreferrer">
                   <Button className="bg-green-500 hover:bg-green-600 text-white w-full">
                     Chat Now
                   </Button>

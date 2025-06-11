@@ -118,19 +118,19 @@ export default function Contact() {
                   <div className="space-y-3 text-charcoal">
                     <div className="flex items-center">
                       <Phone className="w-4 h-4 text-gold mr-3" />
-                      <a href="tel:+919876543210" className="hover:text-gold transition-colors">
-                        +91 98765 43210
+                      <a href="tel:+917796947777" className="hover:text-gold transition-colors">
+                        +91 77969 47777
                       </a>
                     </div>
                     <div className="flex items-center">
                       <Mail className="w-4 h-4 text-gold mr-3" />
-                      <a href="mailto:hello@btanishsalon.com" className="hover:text-gold transition-colors">
-                        hello@btanishsalon.com
+                      <a href="mailto:btanishsalon@gmail.com" className="hover:text-gold transition-colors">
+                        btanishsalon@gmail.com
                       </a>
                     </div>
                     <div className="flex items-center">
                       <MessageCircle className="w-4 h-4 text-gold mr-3" />
-                      <a href="https://wa.me/919876543210" className="hover:text-gold transition-colors">
+                      <a href="https://wa.me/917796947777" className="hover:text-gold transition-colors">
                         WhatsApp Chat
                       </a>
                     </div>

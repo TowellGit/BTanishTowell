@@ -68,7 +68,7 @@ export default function Navigation() {
                 Book Now
               </Button>
             </Link>
-            <a href="tel:+919876543210">
+            <a href="tel:+917796947777">
               <Button variant="outline" size="sm">
                 <Phone className="w-4 h-4 mr-2" />
                 Call
@@ -106,7 +106,7 @@ export default function Navigation() {
                       Book Now
                     </Button>
                   </Link>
-                  <a href="tel:+919876543210">
+                  <a href="tel:+917796947777">
                     <Button variant="outline" className="w-full">
                       <Phone className="w-4 h-4 mr-2" />
                       Call Us
