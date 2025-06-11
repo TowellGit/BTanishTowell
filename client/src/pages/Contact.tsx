@@ -60,10 +60,16 @@ export default function Contact() {
                     </div>
                   </div>
                   <div className="text-charcoal">
-                    <p className="font-semibold mb-2">B Tanish Salon</p>
-                    <p>123 Luxury Plaza, Fashion District</p>
-                    <p>Mumbai, Maharashtra 400001</p>
-                    <p>India</p>
+                    <p className="font-semibold mb-3">B Tanish Salon - Wakad</p>
+                    <p className="mb-2">Rajveer Nucleus Building,</p>
+                    <p className="mb-2">Flat No. 206, 2nd Floor,</p>
+                    <p className="mb-2">Mathoba Chowk, Pimple Saudagar, Wakad</p>
+                    <p className="mb-4">Pune, Maharashtra</p>
+                    
+                    <p className="font-semibold mb-2">B Tanish Salon - Pimple Gurav</p>
+                    <p className="mb-2">Shop No 5, 1st Floor,</p>
+                    <p className="mb-2">Ganeshkrupa Building,</p>
+                    <p>Kasarwadi Chowk, Pimple Gurav</p>
                   </div>
                 </Card>
               </motion.div>
@@ -84,17 +90,19 @@ export default function Contact() {
                     </div>
                   </div>
                   <div className="space-y-3 text-charcoal">
-                    <div className="flex justify-between">
-                      <span>Monday - Friday</span>
-                      <span className="font-semibold">9:00 AM - 8:00 PM</span>
+                    <div className="mb-4">
+                      <p className="font-semibold mb-2">Wakad Location:</p>
+                      <div className="flex justify-between">
+                        <span>Daily</span>
+                        <span className="font-semibold">9:30 AM - 9:30 PM</span>
+                      </div>
                     </div>
-                    <div className="flex justify-between">
-                      <span>Saturday</span>
-                      <span className="font-semibold">10:00 AM - 7:00 PM</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Sunday</span>
-                      <span className="font-semibold">10:00 AM - 6:00 PM</span>
+                    <div>
+                      <p className="font-semibold mb-2">Pimple Gurav Location:</p>
+                      <div className="flex justify-between">
+                        <span>Daily</span>
+                        <span className="font-semibold">10:30 AM - 8:30 PM</span>
+                      </div>
                     </div>
                   </div>
                 </Card>
