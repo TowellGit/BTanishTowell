@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --background: hsl(55, 26%, 98%);
+  --foreground: hsl(0, 0%, 18%);
+  --muted: hsl(48, 14%, 94%);
+  --muted-foreground: hsl(0, 0%, 42%);
+  --popover: hsl(55, 26%, 98%);
+  --popover-foreground: hsl(0, 0%, 18%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(0, 0%, 18%);
+  --border: hsl(48, 8%, 90%);
+  --input: hsl(48, 8%, 90%);
+  --primary: hsl(51, 75%, 55%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(48, 14%, 94%);
+  --secondary-foreground: hsl(0, 0%, 18%);
+  --accent: hsl(48, 14%, 94%);
+  --accent-foreground: hsl(0, 0%, 18%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(60, 9%, 98%);
+  --ring: hsl(51, 75%, 55%);
+  --radius: 0.5rem;
+
+  /* Luxury Salon Colors */
+  --ivory: hsl(55, 26%, 98%);
+  --rose: hsl(330, 30%, 82%);
+  --gold: hsl(45, 75%, 55%);
+  --charcoal: hsl(0, 0%, 18%);
+  --pearl: hsl(48, 14%, 96%);
+  --dusty-rose: hsl(330, 20%, 72%);
+  --bronze: hsl(39, 55%, 40%);
+  --warm-gray: hsl(0, 0%, 42%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 4%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 4%, 16%);
+  --muted-foreground: hsl(240, 5%, 65%);
+  --popover: hsl(240, 10%, 4%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 4%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 4%, 16%);
+  --input: hsl(240, 4%, 16%);
+  --primary: hsl(51, 75%, 55%);
+  --primary-foreground: hsl(0, 0%, 18%);
+  --secondary: hsl(240, 4%, 16%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 4%, 16%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 63%, 31%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(51, 75%, 55%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background-color: var(--ivory);
+    color: var(--charcoal);
+  }
+}
+
+@layer components {
+  .luxury-gradient {
+    background: linear-gradient(135deg, var(--gold) 0%, var(--bronze) 100%);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, var(--gold) 0%, var(--bronze) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glass-effect {
+    backdrop-filter: blur(10px);
+    background: rgba(254, 253, 248, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .luxury-shadow {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .hover-scale {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-scale:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  }
+
+  .parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-sans {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .bg-ivory {
+    background-color: var(--ivory);
+  }
+
+  .bg-rose {
+    background-color: var(--rose);
+  }
+
+  .bg-gold {
+    background-color: var(--gold);
+  }
+
+  .bg-charcoal {
+    background-color: var(--charcoal);
+  }
+
+  .bg-pearl {
+    background-color: var(--pearl);
+  }
+
+  .bg-dusty-rose {
+    background-color: var(--dusty-rose);
+  }
+
+  .bg-bronze {
+    background-color: var(--bronze);
+  }
+
+  .text-ivory {
+    color: var(--ivory);
+  }
+
+  .text-rose {
+    color: var(--rose);
+  }
+
+  .text-gold {
+    color: var(--gold);
+  }
+
+  .text-charcoal {
+    color: var(--charcoal);
+  }
+
+  .text-warm-gray {
+    color: var(--warm-gray);
+  }
+
+  .text-dusty-rose {
+    color: var(--dusty-rose);
+  }
+
+  .text-bronze {
+    color: var(--bronze);
+  }
+
+  .border-gold {
+    border-color: var(--gold);
+  }
+
+  .border-rose {
+    border-color: var(--rose);
+  }
+
+  .border-dusty-rose {
+    border-color: var(--dusty-rose);
+  }
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(20px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(40px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0px); 
+  }
+  50% { 
+    transform: translateY(-10px); 
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--pearl);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bronze);
+}
