@@ -1,0 +1,119 @@
+Build a fully functional, production-ready full-stack web application for a premium luxury salon called B Tanish Salon.
+
+💻 Tech Stack:
+Frontend: React.js (or Next.js for SSR), TailwindCSS, Framer Motion for animations, Three.js (for 3D virtual tour).
+
+Backend: Node.js (Express), MongoDB.
+
+Authentication: JWT.
+
+Payments: Razorpay (preferred) or Stripe.
+
+Notifications: PWA enabled with push notifications.
+
+🎯 Business Goal:
+Deliver a highly interactive, mobile-first salon website that feels like a luxury brand experience — not just a boring booking system. The website should help the brand increase customer trust, engagement, bookings, loyalty, and product sales.
+
+🌟 Core Features:
+1️⃣ Cinematic Homepage
+Full-screen video header: close-up salon scenes — haircuts, facials, bridal makeovers.
+
+Smooth parallax scrolling with layered movement.
+
+Large central CTA: “Book Your Experience”.
+
+2️⃣ Virtual Salon Tour
+3D interactive virtual tour.
+
+Clickable rooms for different services (Hair Lounge, Bridal Room, Facial Lounge, VIP Suites).
+
+3️⃣ AI-Powered Consultation Quiz
+Short multi-step form that asks users:
+
+Hair type, skin type, service needs, upcoming events.
+
+Generates personalized service packages.
+
+4️⃣ Real-Time Booking System
+Live slot availability.
+
+Stylist selection based on specialization and availability.
+
+Sync bookings with client calendars.
+
+Admin panel to configure service durations and slot logic.
+
+5️⃣ Membership & Loyalty
+Tiered memberships (Basic, Gold, Platinum).
+
+Points accumulation on every booking.
+
+Birthday offers, exclusive VIP perks.
+
+Push notifications for offers & loyalty milestones.
+
+6️⃣ Client Transformations Gallery
+Before/After photo sliders.
+
+Client video testimonials.
+
+Integrated Instagram feed for real-time content updates.
+
+7️⃣ Product E-Commerce Store
+Sell salon-exclusive hair care, skincare, bridal kits, etc.
+
+Product subscriptions for recurring sales.
+
+Cross-sell products during booking confirmation.
+
+8️⃣ Admin Dashboard (Backoffice)
+Manage:
+
+Services
+
+Staff & availability
+
+Discounts & offers
+
+Client CRM
+
+Loyalty programs
+
+Product store inventory
+
+Bookings & payment history
+
+9️⃣ Performance & Optimization
+SEO optimized.
+
+Mobile-first PWA (App-like experience on mobile).
+
+Ultra-fast loading.
+
+Clean modular code with comments for maintainability.
+
+🎨 Design Vibe:
+Ultra-premium feel.
+
+Color palette: Ivory White, Rose Pink, Gold, Charcoal Black.
+
+Fonts: Serif + Clean Sans-Serif combination.
+
+Smooth micro-interactions, hover effects, scroll-based transitions.
+
+Minimalist luxury design: hotel lobby vibe.
+
+Elegant animations to create a “relaxing & exclusive” digital vibe.
+
+📈 Scalability:
+Build with scalability in mind to support:
+
+Multiple branches.
+
+Multiple cities.
+
+Staff role management.
+
+Franchise model expansion in the future.
+
+Build the full codebase structure fully functional with mock data and dummy assets where needed. The application should be ready to present to high-end clients as a premium salon SaaS model.
